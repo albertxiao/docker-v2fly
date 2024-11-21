@@ -1,4 +1,4 @@
-FROM --platform=${TARGETPLATFORM} debian:latest
+FROM --platform=${TARGETPLATFORM} ubuntu:latest
 LABEL maintainer="V2Fly Community <dev@v2fly.org>"
 
 WORKDIR /tmp

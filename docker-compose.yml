@@ -1,4 +1,4 @@
-name: <your project name>
+name: v2raytest
 services:
     v2fly-core:
         container_name: v2ray
