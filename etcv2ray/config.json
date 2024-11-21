@@ -1,5 +1,22 @@
 {
-  "ip":"8.8.8.8",
-  "port":53,
-  "isDNS":true
+  "inbounds": [
+    {
+      "port": 8443,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "18121db3-adb9-441a-83d5-ed9058749b78",
+            "alterId": "32"
+          }
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
 }

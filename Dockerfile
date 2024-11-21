@@ -13,6 +13,6 @@ RUN set -ex \
     && ln -sf /dev/stdout /var/log/v2ray/access.log \
     && ln -sf /dev/stderr /var/log/v2ray/error.log \
     && chmod +x "${WORKDIR}"/v2ray.sh \
-    && "${WORKDIR}"/v2ray.sh "${TARGETPLATFORM}" "${TAG}"
+    && "${WORKDIR}"/v2ray.sh
 
 ENTRYPOINT ["/usr/bin/v2ray"]
